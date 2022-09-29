@@ -1,2 +1,20 @@
+.nav-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
+.nav-item {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 1;
+  grid-column: 11/12;
+}
+
+body {
+  margin: 0;
+}
 /*# sourceMappingURL=index.css.map */

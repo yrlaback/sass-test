@@ -1,0 +1,12 @@
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-item {
+    grid-column: 11/12;
+}
