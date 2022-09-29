@@ -34,8 +34,9 @@
 }
 
 .images {
-  display: -ms-grid;
-  display: grid;
+  max-width: 1360px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 body {
