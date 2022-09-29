@@ -2,7 +2,6 @@
   max-width: 1360px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[12];
   grid-template-columns: repeat(12, 1fr);
   margin: 0;
   padding: 1%;
