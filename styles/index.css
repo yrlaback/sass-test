@@ -1,10 +1,11 @@
 .nav-list {
+  max-width: 1360px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[12];
   grid-template-columns: repeat(12, 1fr);
   margin: 0;
-  padding: 0;
+  padding: 1%;
   list-style: none;
 }
 
@@ -14,7 +15,35 @@
   grid-column: 11/12;
 }
 
+.header__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1360px;
+  min-height: 251px;
+  margin: 0;
+  padding: 1%;
+}
+
+.header__container {
+  max-width: 635px;
+}
+
+.header__quote {
+  align-self: flex-end;
+}
+
+.images {
+  display: -ms-grid;
+  display: grid;
+}
+
 body {
+  position: relative;
+  max-width: 1360px;
+  width: 100%;
+  min-height: 3840px;
+  background: #FFFFFF;
   margin: 0;
 }
 /*# sourceMappingURL=index.css.map */

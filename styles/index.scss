@@ -1,7 +1,14 @@
 @use 'fonts';
 
 @import 'nav';
+@import 'header';
+@import 'main';
 
 body  {
+    position: relative;
+    max-width: 1360px;
+    width: 100%;
+    min-height: 3840px;
+    background: #FFFFFF;
     margin: 0;
 }
