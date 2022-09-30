@@ -43,3 +43,68 @@ $main-font: 'Mulish', sans-serif;
     mix-blend-mode: normal;
     opacity: 0.6;
 }
+
+.container__main__awards {
+    max-width: 1110px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.row__awards__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.awards__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.awards__second__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.awards__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.awards__second__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.awards__nr {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+}
