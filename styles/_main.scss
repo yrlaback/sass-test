@@ -1,6 +1,12 @@
+$main-font: 'Mulish', sans-serif; 
 
-.images {
+.container__main__images {
     max-width: 1360px;
     width: 100%;
-    flex-wrap: wrap;
+}
+
+.container__main__group {
+    min-height: 106px;
+    max-width: 1079px;
+    padding: 5px;
 }

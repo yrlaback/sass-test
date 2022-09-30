@@ -1,8 +1,35 @@
+$main-font: 'Mulish', sans-serif; 
+
+.nav-list {
+    max-width: 1360px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0;
+    padding: 1%;
+    list-style: none;
+}
+
+.nav-item {
+    grid-column: 11/12;
+}
+
+.link__nav {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
 .header__row {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     max-width: 1360px;
+    width: 100%;
     min-height: 251px;
     margin: 0;
     padding: 1%;
@@ -14,4 +41,43 @@
 
 .header__quote {
     align-self: flex-end;
+}
+
+.header__container__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: -0.423077px;
+    color: #4A4FF2;
+}
+
+.header__container__h1 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+    color: #111111;
+}
+
+.header__quote__rec {
+    background: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.header__quote__text {
+    font-family: $main-font;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
