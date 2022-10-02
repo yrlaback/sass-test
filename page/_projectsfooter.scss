@@ -1,0 +1,32 @@
+$main-font: 'Mulish', sans-serif;
+
+.footer__row {
+    max-width: 1210px;
+    min-height:23px;
+    list-style: none;
+}
+
+.footer__container {
+    max-width: 1110px;
+    min-height: 23px;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 90px;
+    height: 19.34px;
+}
+
+.link-footer {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+}

@@ -91,6 +91,7 @@
 
 .container__main__images {
   max-width: 1110px;
+  min-height: 1960px;
   width: 100%;
 }
 
@@ -136,15 +137,7 @@
 
 .container__main__awards {
   max-width: 1110px;
-  margin: 5px;
-  padding: 5px;
-}
-
-.row__awards__list {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: baseline;
+  min-height: 823px;
 }
 
 .awards__title {
