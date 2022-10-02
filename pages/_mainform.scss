@@ -1,13 +1,20 @@
 $main-font: 'Mulish', sans-serif; 
 
-.container__form {
+.form__container {
     max-width: 1110px;
     width: 100%;
     min-height: 300px;
     display: flex;
+    gap: 25%;
 }
 
-.title__form {
+.form__column {
+    max-width: 475px;
+    width: 100%;
+    min-height: 286px;
+}
+
+.form__title {
     font-family: $main-font;
     font-style: normal;
     font-weight: 700;
@@ -17,8 +24,8 @@ $main-font: 'Mulish', sans-serif;
     color: #111111;
 }
 
-.text__form {
-    font-family: 'Mulish';
+.form__text {
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -28,3 +35,50 @@ $main-font: 'Mulish', sans-serif;
     mix-blend-mode: normal;
     opacity: 0.8;
 }
+
+.form__form {
+    max-width: 475px;
+    min-height: 291px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email, #message {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin: 5px;
+}
+
+.btn {
+    width: 125px;
+    height: 50px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    margin: 10px 0px 0px 5px;
+    border: none;
+    background-color: #4A4FF2;;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #1118f7;
+}
+
+.img { 
+    width: 1110px;
+    height: 570px;
+    margin-top: 5%;
+}
+

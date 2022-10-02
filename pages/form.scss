@@ -3,8 +3,10 @@
 @import 'formnav';
 @import 'mainform';
 
-.body {
-    width: 1360px;
-    height: 1375px;
+body {
+    max-width: 1360px;
+    width: 100%;
+    min-height: 1375px;
+    margin: auto;
     background: #FFFFFF;
     }
