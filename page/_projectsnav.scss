@@ -1,0 +1,30 @@
+$main-font: 'Mulish', sans-serif;
+
+.nav-list {
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 0;
+    padding: 1%;
+    list-style: none;
+}
+
+.nav-item {
+    grid-column: 11/12;
+}
+
+#logo {
+    width: 90px;
+    height: 19.34px;
+}
+
+.link__nav {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
