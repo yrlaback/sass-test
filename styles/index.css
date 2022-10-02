@@ -199,23 +199,16 @@
   color: #111111;
 }
 
-.container__footer {
+.footer__list {
   max-width: 1110px;
   min-height: 23px;
   margin: 5px;
   gap: 2rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr;
-  grid-template-columns: repeat(12, 1fr);
   padding: 1%;
   list-style: none;
-}
-
-.footer__social {
-  -ms-grid-column: 12;
-  -ms-grid-column-span: 1;
-  grid-column: 12/13;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 #logo {
@@ -223,7 +216,7 @@
   height: 19.34px;
 }
 
-.footer__link {
+.link__footer {
   font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 700;

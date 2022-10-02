@@ -1,24 +1,21 @@
-$main-font: 'Mulish', sans-serif;
+$main-font: 'Mulish', sans-serif;  
 
-.footer__list {
+.footer-list {
     max-width: 1110px;
-    min-height:23px;
-    margin: 5px;
-    gap: 2rem;
-    padding: 1%;
+    margin-top: 10px;
+    padding: 10px;
     list-style: none;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
 }
-
 
 #logo {
     width: 90px;
     height: 19.34px;
 }
 
-.link__footer {
+.link-footer {
     font-family: $main-font;
     font-style: normal;
     font-weight: 700;
@@ -28,3 +25,5 @@ $main-font: 'Mulish', sans-serif;
     letter-spacing: -0.346154px;
     color: #111111;
 }
+
+
