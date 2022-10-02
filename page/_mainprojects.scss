@@ -1,0 +1,117 @@
+$main-font: 'Mulish', sans-serif;
+
+.projects__main__header {
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+}
+
+.project__header__list { 
+    width: 335px;
+    height: 343px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+.projects__header {
+    max-width: 635px;
+    min-height: 352px;
+}
+
+.projects__title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    /* or 138% */
+    color: #111111;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.projects__text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.project__list__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.project__list__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+
+}
+
+.img__container {
+    max-width: 1240px;
+    min-height: 660px;
+    display: flex;
+    justify-content: center;
+}
+
+.text__container {
+    max-width: 1240px;
+    min-height: 93px;
+    display: flex;
+    justify-content: center;
+}
+
+.text__column {
+    max-width: 1109px;
+    min-height: 93px;
+    padding: 10px;
+}
+
+.img__text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.imgs__row {
+    max-width: 1250px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img__green {
+    width: 350px;
+    height: 400px;
+}
