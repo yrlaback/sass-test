@@ -1,0 +1,39 @@
+.nav-list {
+  max-width: 1110px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+  grid-template-columns: repeat(12, 1fr);
+  margin: 0;
+  padding: 1%;
+  list-style: none;
+}
+
+.nav-item {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: 1;
+  grid-column: 11/12;
+}
+
+#logo {
+  width: 90px;
+  height: 19.34px;
+}
+
+.link__nav {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.346154px;
+  color: #111111;
+}
+
+.body {
+  width: 1360px;
+  height: 1375px;
+  background: #FFFFFF;
+}
+/*# sourceMappingURL=form.css.map */
