@@ -3,8 +3,28 @@
     min-height:23px;
     margin: 5px;
     gap: 2rem;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1%;
+    list-style: none;
 }
 
+.footer__social {
+    grid-column: 12/13;
+}
+
+#logo {
+    width: 90px;
+    height: 19.34px;
+}
+
+.footer__link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+}

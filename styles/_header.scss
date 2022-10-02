@@ -1,7 +1,7 @@
 $main-font: 'Mulish', sans-serif; 
 
 .nav-list {
-    max-width: 1360px;
+    max-width: 1110px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     margin: 0;
@@ -11,6 +11,11 @@ $main-font: 'Mulish', sans-serif;
 
 .nav-item {
     grid-column: 11/12;
+}
+
+#logo {
+    width: 90px;
+    height: 19.34px;
 }
 
 .link__nav {
@@ -28,7 +33,7 @@ $main-font: 'Mulish', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1360px;
+    max-width: 1110px;
     width: 100%;
     min-height: 251px;
     margin: 0;
